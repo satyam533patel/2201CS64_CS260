@@ -4,7 +4,8 @@
 -- General Instructions
 -- 1.	The .sql files are run automatically, so please ensure that there are no syntax errors in the file. If we are unable to run your file, you get an automatic reduction to 0 marks.
 -- Comment in MYSQL 
-
+create database db1;
+use db1;
 -- 1. Write a SQL query to display the first name and last name of all employees.
 SELECT first_name, last_name FROM employees;
 
