@@ -1,0 +1,22 @@
+.header{
+    background-image: #03045e;
+  }
+  
+  .heroSection{
+    background-color: #90e0ef;
+  }
+  
+  .blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .logo{
+    width: auto;
+    height: auto;
+  }
